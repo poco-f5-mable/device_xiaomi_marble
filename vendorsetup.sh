@@ -31,4 +31,7 @@ echo 'Cloning MemeCamera Tree'
 git clone https://gitlab.com/marble9121630/android_device_xiaomi_miuicamera-marble.git -b ursa device/xiaomi/miuicamera-marble
 git clone https://gitlab.com/marble9121630/android_vendor_xiaomi_miuicamera-marble.git -b ursa vendor/xiaomi/miuicamera-marble
 
+# BCR
+git clone --depth=1 https://github.com/kenway214/vendor_bcr.git -b main vendor/bcr
+
 echo 'delete vendorsetup.sh from device tree once this is done'
