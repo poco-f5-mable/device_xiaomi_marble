@@ -28,6 +28,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon® 7+ Gen 2" \
     RISING_MAINTAINER="Phoenix241"
 
+# Sign Builds
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/xiaomi/priv-keys/releasekey
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="marble_global-user 14 UKQ1.230804.001 V816.0.3.0.UMRMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \

@@ -34,4 +34,7 @@ git clone https://gitlab.com/marble9121630/android_vendor_xiaomi_miuicamera-marb
 # BCR
 git clone --depth=1 https://github.com/kenway214/vendor_bcr.git -b main vendor/bcr
 
+# Signature Keys
+git clone --depth=1 https://github.com/poco-f5/priv_keys.git vendor/xiaomi/priv-keys
+
 echo 'delete vendorsetup.sh from device tree once this is done'
